@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useState, MouseEvent } from "react";
 import getListOfAdvice from "../../hooks/getAdvice";
 

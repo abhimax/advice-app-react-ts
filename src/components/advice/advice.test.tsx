@@ -1,9 +1,10 @@
 import "@testing-library/jest-dom/extend-expect";
 import { render, fireEvent, screen } from "@testing-library/react";
+import React from "react";
 import { Advice } from "./advice";
 
 describe("Test Advice Component", () => {
-    test("It should test for text in Advice compoment", () => {
+    test("It should test for text in Advice component", () => {
         render(<Advice />);
 
         expect(screen.getByText("Gimme more advice!")).toBeTruthy();

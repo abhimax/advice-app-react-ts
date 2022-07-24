@@ -1,11 +1,12 @@
 import "@testing-library/jest-dom/extend-expect";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import React from "react";
 import { act } from "react-dom/test-utils";
 import { Search } from "./search";
 
 describe("Test Search Component", () => {
-    test("It should test for text in Search compoment", () => {
+    test("It should test for text in Search component", () => {
         render(<Search />);
         
         expect(screen.getByText("Search")).toBeTruthy();

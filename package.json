@@ -1,18 +1,27 @@
 {
-  "name": "eclecticiq-ui-engineer-code-challenge",
+  "name": "advice-app-react-types",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",
   "dependencies": {
+    "@babel/runtime": "7.14.6",
+    "@testing-library/jest-dom": "5.11.10",
+    "@testing-library/react": "12.0.0",
+    "@testing-library/react-hooks": "6.0.0",
+    "@testing-library/user-event": "12.8.1",
+    "dom-accessibility-api": "0.5.6",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-scripts": "4.0.0"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-test-renderer": "16.13.1",
+    "typescript": "^4.0.5"
   },
   "devDependencies": {
+    "@babel/runtime": "7.14.6",
     "@types/react": "17.0.0",
-    "@types/react-dom": "17.0.0",
-    "typescript": "4.1.3"
+    "@types/react-dom": "17.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
